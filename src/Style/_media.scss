@@ -1,0 +1,44 @@
+@media (max-width: 600px) {
+    .single_coin{
+        font-size: .7rem;
+
+        img{
+            width: 30px;
+        }
+
+        .change_box,
+        .market_change{
+            .box_header{
+                h3{
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+
+    .coin_header{
+        .box{
+            grid-template-columns: 1fr 2fr 1fr;
+            font-size: .9rem;
+        }
+
+        .media{
+            display: none;
+        }
+    }
+
+    .coin{
+        .coin_box{
+            grid-template-columns: 1fr 2fr 1fr;
+            font-size: .8rem;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .coin{
+        .coin_box{
+           font-size: .7rem;
+        }
+    }
+}
